@@ -13,6 +13,12 @@ The model takes edge maps as input and generates stunning, realistic face images
 |:----------------:|:-----------------------:|
 | ![epoch_3_step_95800_img_1_sketch](https://github.com/user-attachments/assets/076678db-3f47-4e2a-a194-756126ff2df8) | ![epoch_3_step_95800_img_1_generated](https://github.com/user-attachments/assets/035fbd57-36a8-493c-a667-52b83ef3c9f5) |
 | ![epoch_3_step_97000_img_1_sketch](https://github.com/user-attachments/assets/89f19ea0-bfd9-4e58-b49d-2284c05e58fb) |  ![epoch_3_step_97000_img_1_generated](https://github.com/user-attachments/assets/c5e6d2e1-ff9b-461d-b275-56e08edbaaef) |
+| ![epoch_3_step_98000_img_1_sketch](https://github.com/user-attachments/assets/a21e2777-9034-4588-a6a8-eb9b66a82e02) | ![epoch_3_step_98000_img_1_generated](https://github.com/user-attachments/assets/a7bbf40b-7f1f-4e70-9cb8-13bbcd886831) |
+| ![epoch_3_step_99300_img_1_sketch](https://github.com/user-attachments/assets/9f143b33-e1a3-4e8a-bfe6-fa4a7f64094c) | ![epoch_3_step_99300_img_1_generated](https://github.com/user-attachments/assets/e167e515-ff1e-4564-9c3f-5359d391ae68) |
+
+
+
+
 
 These outputs are produced using Global Generator with **512x512** resolution, giving exceptional detail and realism!
 
