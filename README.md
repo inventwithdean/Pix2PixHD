@@ -1,6 +1,6 @@
 # Pix2PixHD: Edges to Faces - CelebA-HQ
 
-![Header Image](insert_image_link_here)  
+(![Header image](https://github.com/user-attachments/assets/e69ff018-13cc-4cc1-b2a9-4b07e0037632)  
 > *Generating photorealistic faces from edge maps using Conditional GANs (Pix2PixHD)*
 
 ## 🌟 Overview
@@ -14,7 +14,7 @@ The model takes edge maps as input and generates stunning, realistic face images
 | ![epoch_3_step_95800_img_1_sketch](https://github.com/user-attachments/assets/076678db-3f47-4e2a-a194-756126ff2df8) | ![epoch_3_step_95800_img_1_generated](https://github.com/user-attachments/assets/035fbd57-36a8-493c-a667-52b83ef3c9f5) |
 | ![epoch_3_step_97000_img_1_sketch](https://github.com/user-attachments/assets/89f19ea0-bfd9-4e58-b49d-2284c05e58fb) |  ![epoch_3_step_97000_img_1_generated](https://github.com/user-attachments/assets/c5e6d2e1-ff9b-461d-b275-56e08edbaaef) |
 
-These outputs are produced using **1024x1024** resolution images, giving exceptional detail and realism!
+These outputs are produced using Global Generator with **512x512** resolution, giving exceptional detail and realism!
 
 ## 📄 Original Paper
 This implementation is based on the paper [“High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs”](https://arxiv.org/abs/1711.11585) by Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, and others. Pix2PixHD builds on the standard Pix2Pix architecture to produce images with higher resolutions and fidelity, especially useful for tasks such as semantic image synthesis.
