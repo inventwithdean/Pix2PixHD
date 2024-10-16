@@ -51,13 +51,14 @@ d1_scheduler = torch.optim.lr_scheduler.LambdaLR(d1_optimizer, lr_lambda)
 
 # Loading Checkpoints
 load_epoch = 0
-load_checkpoint(
-    [generator1, discriminator1],
-    [g1_optimizer, d1_optimizer],
-    [g1_scheduler, d1_scheduler],
-    load_epoch,
-    "./global_checkpoints",
-)
+# Load only when you have any saved checkpoints in Phase 1
+# load_checkpoint(
+#     [generator1, discriminator1],
+#     [g1_optimizer, d1_optimizer],
+#     [g1_scheduler, d1_scheduler],
+#     load_epoch,
+#     "./global_checkpoints",
+# )
 
 # Phase 2: High Resolution (1024, 1024)
 
